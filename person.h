@@ -10,7 +10,7 @@ class person{
         float hoursWorked;
         float payRate;
     public:
-        person();
+        person(string firstN, string LastN, float pay, float hours);
         void setLastName(string lName);
         string getLastName();
         void setFirstName(string fName);

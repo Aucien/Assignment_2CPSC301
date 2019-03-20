@@ -43,10 +43,13 @@ float person::totalPay(){
 }
 
 string person::fullName(){
-    string fullName =firstName + " " +lastName;
+    string fullName = firstName + " " +lastName;
     return fullName;
 }
 
-person::person(){
-    
+person::person(string firstN, string LastN, float pay, float hours){
+    firstName = firstN;
+    lastName = LastN;
+    payRate = pay;
+    hoursWorked = hours;
 }
